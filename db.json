@@ -1,20 +1,8 @@
 {
   "notes": [
     {
-      "id": 4,
-      "note": "this is my 4th adsadsd agagaga"
-    },
-    {
       "id": 1,
       "note": "this is my 1st note"
-    },
-    {
-      "id": 2,
-      "note": "this is my 2nd note"
-    },
-    {
-      "id": 3,
-      "note": "this is my 3rd note"
     }
   ]
 }
