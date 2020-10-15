@@ -27,10 +27,15 @@ function Delete(id) {
   db.get("notes").remove({ id: parsedId }).write();
 }
 
+function DeleteAll() {
+  db.get("notes").remove({}).write();
+}
+
 module.exports = {
   Get,
   Add,
   GetId,
   Edit,
   Delete,
+  DeleteAll,
 };

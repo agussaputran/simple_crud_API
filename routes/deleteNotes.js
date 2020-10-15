@@ -17,4 +17,9 @@ app.delete("/notes", (req, res) => {
   }
 });
 
+app.delete("/notes/all", (req, res) => {
+  db.DeleteAll();
+  res.send("Success delete all notes");
+});
+
 module.exports = app;
